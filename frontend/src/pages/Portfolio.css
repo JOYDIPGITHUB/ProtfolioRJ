@@ -1,0 +1,113 @@
+/* Container styling */
+.portfolio-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .portfolio-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .portfolio-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  /* Portfolio list */
+  .portfolio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  /* Individual cards */
+  .portfolio-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  /* Reversed layout for every other card */
+  .portfolio-card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  /* Image styling */
+  .portfolio-image {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    flex-shrink: 0;
+  }
+  
+  /* Content */
+  .portfolio-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .portfolio-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .portfolio-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .portfolio-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .portfolio-card.reverse {
+      flex-direction: column;
+    }
+  
+    .portfolio-image {
+      width: 100%;
+      height: 200px;
+    }
+  
+    .portfolio-content {
+      text-align: left;
+      width: 100%;
+    }
+  }
+  
+  /* Background images */
+  .image-0 {
+    background-image: url("C:\Users\JOYDIP\Desktop\RJConsultencyservice\frontend\src\assets\ecommercewebsite.jpg");
+  }
+  
+  .image-1 {
+    background-image: url("C:\Users\JOYDIP\Desktop\RJConsultencyservice\frontend\src\assets\mobilebookinapp.jpg");
+  }
+  
+  .image-2 {
+    background-image: url("C:\Users\JOYDIP\Desktop\RJConsultencyservice\frontend\src\assets\businesswebsite.jpeg");
+  }
+  
+  .image-3 {
+    background-image: url("C:\Users\JOYDIP\Desktop\RJConsultencyservice\frontend\src\assets\digitalcampaignplatform.jpeg");
+  }
+  

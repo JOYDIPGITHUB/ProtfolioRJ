@@ -1,0 +1,45 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section padding for consistency */
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Optional custom font */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Button hover transition (if used outside Tailwind) */
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2563eb; /* Tailwind's blue-600 */
+}
+
+/* Image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

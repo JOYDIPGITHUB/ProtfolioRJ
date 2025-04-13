@@ -1,0 +1,120 @@
+/* Base setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7f9;
+  }
+  
+  .contact-section {
+    padding: 50px 20px;
+    background: linear-gradient(145deg, #ffffff, #e6eaf0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+  
+  /* Image side */
+  .contact-image {
+    flex: 1;
+    background-image: url('C:\Users\JOYDIP\Desktop\RJConsultencyservice\frontend\src\assets\contact.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+  }
+  
+  /* Form side */
+  .contact-form {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #0077ff;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .contact-form button {
+    padding: 15px;
+    background: #0077ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background: #005fcc;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-image {
+      height: 200px;
+    }
+  
+    .contact-form {
+      padding: 30px 20px;
+    }
+  
+    .contact-form h2 {
+      font-size: 24px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  

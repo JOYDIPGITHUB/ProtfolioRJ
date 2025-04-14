@@ -12,7 +12,7 @@ html, body {
 /* Home Section */
 .home-container {
   position: relative;
-  background: url('C:\Users\JOYDIP\Desktop\RJConsultencyservice\frontend\src\assets\background.jpg') no-repeat center center;
+  background: url('https://protfoliorj.onrender.com/uplodes/background.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: scroll; /* or fixed for parallax */
   padding: 6rem 1rem;

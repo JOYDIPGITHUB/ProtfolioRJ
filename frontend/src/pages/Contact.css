@@ -28,7 +28,7 @@ body {
   /* Image side */
   .contact-image {
     flex: 1;
-    background-image: url('C:\Users\JOYDIP\Desktop\RJConsultencyservice\frontend\src\assets\contact.jpg');
+    background-image: url('https://protfoliorj.onrender.com/uplodes/contact.jpg');
     background-size: cover;
     background-position: center;
     min-height: 400px;

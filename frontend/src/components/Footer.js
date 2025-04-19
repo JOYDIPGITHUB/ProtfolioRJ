@@ -7,9 +7,9 @@ export default function Footer() {
     <footer>
       <p>&copy; {new Date().getFullYear()} RJ Consultancy. All rights reserved.</p>
       <div className="footer-contacts">
-        <a href="mailto:rjonlineservic2024@gmail.com">
+        <a href="mailto:rjonlineservice2024@gmail.com">
           <FaEnvelope className="footer-icon" />
-          rjonlineservic2024@gmail.com
+          rjonlineservice2024@gmail.com
         </a>
         <a href="https://wa.me/7439504831" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="footer-icon" />
